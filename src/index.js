@@ -3,7 +3,6 @@
 //~ CONTS N' NODES
 const baseImageUrl = "https://loremflickr.com/320/440/"
 const imageContainer = document.querySelector(".image-container");
-const imageDownloadLink = document.getElementsByTagName("a");
 const activityParagraph = document.getElementById("activity");
 const nextBtn = document.getElementById("nextImg");
 const addTextBtn = document.getElementById("add_text")
@@ -18,13 +17,11 @@ const bottomText = document.getElementById("bottom_text");
 let h3 = document.querySelectorAll("h3");
 let preventCacheRandomNum = 2;
 let searchTerm;
-const changeBtn = document.getElementById("changeCat");  //change button
 const catagoryInput = document.getElementById("cat_input")
-let image_subject = "animals" 
 
 
 //~ SERVER COMMUNICATIONS
-const newImg = () => {
+const newImg = () => {  //GETS new image
     topText.innerText = "";
     bottomText.innerText = "";
     ++preventCacheRandomNum
@@ -34,7 +31,7 @@ const newImg = () => {
     renderNewImage(IMG_URL);
     };
   
-const newActivity = () => {
+const newActivity = () => { //GETS new activity
     fetch(ACT_URL)
     .then(res => res.json())
     .then(activity => {
@@ -46,26 +43,26 @@ const newActivity = () => {
 }
 
 //~ DOM MANIPULATION
-const renderNewImage = img => {
+const renderNewImage = img => { //renders new image
     memeImage.src = "";
     memeImage.src = img;
     imageContainer.append(memeImage);
     setTimeout(() => {displayText();},900);
 }
 
-const renderNewActivity = activity => {
+const renderNewActivity = activity => { //renders new activity text
     console.log(activity.type);
     let activityText = activity.activity;
     activityText = activityText.toLowerCase();
     activityParagraph.innerText = activityText + ".\"";
 }
 
-const changeTextColor = () => {
+const changeTextColor = () => { //toggles caption text color
     topText.classList.toggle("black");
     bottomText.classList.toggle("black");
 };
 
-const displayText = () => {
+const displayText = () => { //renders caption text
     topText.innerText = topTextInput.value;
     bottomText.innerText = bottomTextInput.value;
 }
