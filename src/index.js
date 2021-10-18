@@ -1,7 +1,7 @@
 
 
 //~ CONTS N' NODES
-const baseImageUrl = "https://loremflickr.com/320/440/"
+const baseImageUrl = "https://loremflickr.com/320/400/"
 const imageContainer = document.querySelector(".image-container");
 const activityParagraph = document.getElementById("activity");
 const nextBtn = document.getElementById("nextImg");
