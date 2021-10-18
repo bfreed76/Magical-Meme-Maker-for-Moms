@@ -38,7 +38,7 @@ const newActivity = () => { //GETS new activity
         renderNewActivity(activity);
     })
     .catch(function(error) {
-        console.log('Request failed', error)
+        console.log('Sorry, mom. Try again.', error)
       });
 }
 
