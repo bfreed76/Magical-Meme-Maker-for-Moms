@@ -9,6 +9,13 @@
 }
 
 
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow:auto;
+    float: left;
+}
+
 body {
     background-color: lavenderblush;
     background-image: linear-gradient(rgba(219, 152, 214, .1), rgba(180, 30, 118, 0.3));
@@ -32,13 +39,6 @@ hr {
     border-bottom: 5px yellow;
     background-color: rgb(236, 136, 118);
     margin-bottom: 2%;
-}
-
-html, body {
-    height: 100%;
-    width: 100%;
-    overflow:auto;
-    float: left;
 }
 
 #fullLine {
@@ -124,7 +124,7 @@ p {
 
 h3 { 
     position: absolute;
-    left: 45%;
+    left: 50%;
     font-weight: 900;
     font-size: 180%;
     transform: translate(-50%, -50%);

@@ -20,7 +20,7 @@ let searchTerm;
 const catagoryInput = document.getElementById("cat_input")
 
 
-//~ SERVER COMMUNICATIONS
+// SERVER COMMUNICATIONS
 const newImg = () => {  //GETS new image
     topText.innerText = "";
     bottomText.innerText = "";
@@ -42,7 +42,7 @@ const newActivity = () => { //GETS new activity
       });
 }
 
-//~ DOM MANIPULATION
+// DOM MANIPULATION
 const renderNewImage = img => { //renders new image
     memeImage.src = "";
     memeImage.src = img;
@@ -68,7 +68,7 @@ const displayText = () => { //renders caption text
 }
 
 
-//~ EVENT HANDERS
+// EVENT HANDERS
 nextBtn.addEventListener("click", newImg);
 
 boredBtn.addEventListener("click", newActivity);
@@ -79,6 +79,6 @@ topTextInput.addEventListener("input", displayText);
 
 bottomTextInput.addEventListener("input", displayText);
 
-//~ HELPER FUNCTIONS
+// HELPER FUNCTIONS
 
 newImg();
