@@ -17,7 +17,7 @@ const bottomText = document.getElementById("bottom_text");
 let h3 = document.querySelectorAll("h3");
 let preventCacheRandomNum = 2;
 let searchTerm;
-const catagoryInput = document.getElementById("cat_input")
+const categoryInput = document.getElementById("cat_input")
 
 
 // SERVER COMMUNICATIONS
@@ -26,7 +26,7 @@ const newImg = () => {  //GETS new image
     bottomText.innerText = "";
     ++preventCacheRandomNum
     let image_random_stringer = "?lock=" + preventCacheRandomNum
-    image_subject = catagoryInput.value;  
+    image_subject = categoryInput.value;  
     let IMG_URL = baseImageUrl + image_subject + image_random_stringer  
     renderNewImage(IMG_URL);
     };
