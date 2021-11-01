@@ -35,3 +35,12 @@ Project Link: [Meme Maker for Moms](https://bfreed76.github.io/Magical-Meme-Make
 <p align="center">
 <img src="./Media/mm_screen3.png" alt="screenshot">
 </p>
+
+## Setup
+
+To setup on your machine, simply navigate to this project's parent directory and clone this repo using the command line.
+```
+git clone git@github.com:bfreed76/Magical-Meme-Maker-for-Moms.git
+```
+Once the project is cloned on to your local machine, navigate to the parent folder and open up the index.html file in a browser. 
+
