@@ -1,104 +1,37 @@
-# JavaScript Project Mode 
-
-## Learning Goals
-
-- Design and architect features across a frontend
-- Communicate and collaborate in a technical environment
-- Integrate JavaScript and an external API
-- Debug issues in small- to medium-sized projects
-- Build and iterate on a project MVP
-
-## Introduction
-
-Welcome to JavaScript Project Mode!
-
-You’ve worked so hard to get here and have learned a ton. Now it's time to bring it all together!
-
-For this project, you're going build a Single Page Application (**SPA**).
-Building this application will be challenging because it will integrate
-everything you've learned up to this point. Your frontend will be
-built with HTML, CSS, and JavaScript and will communicate with a
-public API.
+Magical Meme Maker for Moms
 
 
-### Project Requirements
+See the working app and [create a mom meme today!](https://bfreed76.github.io/Magical-Meme-Maker-for-Moms/)
 
-1. Your app must be a HTML/CSS/JS frontend that accesses data from a public API.
-   All interactions between the client and the API should be handled
-   asynchronously and use JSON as the communication format.
+ 
+<p align="center">
+<img src="./Media/mm_screenshot1.jpg" alt="screenshot">
+</p>
 
-2. Your entire app must run on a single page. There should be NO redirects. In
-   other words, your project will contain a single HTML file.
+## Description
 
-3. Some interactivity is required. This interactivity needs to incorporate at least 3 separate event listeners. This could be as simple as adding a "like"
-   button or adding comments. These interactions do not need to persist after reloading the page.
-   
-### Stretch Goals
+This app uses vanilla Javascript, HTML and CSS to create an meme maker and random activity generator for moms with lazy kids! 
 
-4. Set up a JSON server in your project to persist your app's interactivity.
+### Built Using
 
-## Strategy, Timeline, and Tips
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />&nbsp;&nbsp;
 
-### Planning
+<p align="center">
+<img src="./Media/mm_screenshot2.jpg" alt="screenshot">
+</p>
 
-- Plan out your features
-- Develop user stories
-  - “As [ a user ], I want [ to perform this action ] so that [ I can accomplish this goal ].”
-  - Features should not need you there to explain them to users
-- Plan out the structure of your JSON requests
+<!-- CONTACT -->
+## Contact Me
 
-### Project Pitches
+[![Linkedin Badge](https://img.shields.io/badge/-brintonfoyreed-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/brintonfoyreed/)](https://www.linkedin.com/in/brintonfoyreed/) [![Instagram Badge](https://img.shields.io/badge/-nigels_vacation-purple?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/nigels_vacation/)](https://www.instagram.com/nigels_vacation/) [![Medium Badge](https://img.shields.io/badge/-brintonfoyreed-03a57a?style=flat-square&labelColor=000000&logo=Medium&link=https://brintonfoyreed.medium.com/)](https://brintonfoyreed.medium.com/)[ ![Gmail Badge](https://img.shields.io/badge/-brintonfoyreed@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:brintonfoyreed@gmail.com)](mailto:brintonfoyreed@gmail.com)
 
-Before you start working on your project, you'll pitch your project idea to your
-instructors for approval and feedback. 
+Project Link: [Meme Maker for Moms](https://bfreed76.github.io/Magical-Meme-Maker-for-Moms/)
 
-For your project pitch, you should include:
+<a href="https://github.com/bfreed76">
+<strong>See more apps on my profile page »</strong></a>
 
-- The basic story of your application
-- The core features of your MVP
-- The API data you'll be using and how you'll use it
-- Challenges you expect to face
-- How you are meeting the requirements of the project
-
-Feel free to send this pitch to your instructor via slack asynchronously. 
-
-### MVP ASAP
-
-- Build a Minimum Viable Product (MVP) as quickly as possible.
-  - Pick an API and explore it early on to ensure it will work for your need
-
-### Instructor Guidance
-
-You should strive to solve problems independently, but you also shouldn't waste
-your time stuck on a problem. A good guideline for a small bug is the rule of
-10s:
-
-- 10 minutes debugging the code
-- 10 minutes using Google and StackOverflow to try to find an answer
-- 10 minutes asking your fellow students for help
-- Asking an instructor
-
-If you seek out instructor guidance on your design from the start, they might
-help steer you into design and architectural decisions that will help you down
-the road. That will also give the instructors context for what your app is
-supposed to do, so you won't need to explain everything to them when asking for
-help debugging.
-
-### Guidelines for Staying Organized
-
-**Write down** the decisions you make about your project. This will not only
-help you think more clearly, it will also help you communicate your project to
-instructors when asking for help. In addition to writing everything down, we
-also recommend the following to help stay organized and on track:
-
-- Describe/sketch your ideas (use diagrams!).
-- Start by creating a frontend directory with the basic files you'll need
-- Next, build enough code to get some API data to work with. Don't worry about
-  building all of your async code yet, just get to the point where you can
-  access one endpoint on an API, then start working on getting that data
-  displayed.
-- Then, continue to build additional async code and frontend features.
-- Continue building features one by one.
-
-Check in with your instructors to make sure your scope and timeline are
-manageable.
+<p align="center">
+<img src="./Media/mm_screenshot3.jpg" alt="screenshot">
+</p>
