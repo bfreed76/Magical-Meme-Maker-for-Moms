@@ -5,7 +5,7 @@ See the working app and [create a mom meme today!](https://bfreed76.github.io/Ma
 
  
 <p align="center">
-<img src="./Media/mm_screenshot1.png" alt="screenshot">
+<img src="./Media/mm_screen1.png" alt="screenshot">
 </p>
 
 ## Description
@@ -19,7 +19,7 @@ This app uses vanilla Javascript, HTML and CSS to create an meme maker and rando
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />&nbsp;&nbsp;
 
 <p align="center">
-<img src="./Media/mm_screenshot2.png" alt="screenshot">
+<img src="./Media/mm_screen2.png" alt="screenshot">
 </p>
 
 <!-- CONTACT -->
@@ -33,5 +33,5 @@ Project Link: [Meme Maker for Moms](https://bfreed76.github.io/Magical-Meme-Make
 <strong>See more apps on my profile page »</strong></a>
 
 <p align="center">
-<img src="./Media/mm_screenshot3.png" alt="screenshot">
+<img src="./Media/mm_screen3.png" alt="screenshot">
 </p>
